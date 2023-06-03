@@ -1,0 +1,58 @@
+[
+    {
+      "response_type": "greeting",
+      "user_input": ["hello", "hi", "hey","hii"],
+      "bot_response": "Hey there!",
+      "required_words": []
+    },
+    {
+      "response_type": "greeting",
+      "user_input": ["see you", "goodbye", "bye","catch up later"],
+      "bot_response": "See you later!",
+      "required_words": []
+    },
+    {
+      "response_type": "greeting",
+      "user_input": ["nice", "to", "meet", "you"],
+      "bot_response": "The pleasure is all mine!",
+      "required_words": ["nice", "meet", "you"]
+    },
+    {
+      "response_type": "question",
+    "user_input": ["how", "to", "learn", "code", "coding", "apps"],
+    "bot_response": "Search: 'How to learn coding' on Google.",
+    "required_words": ["learn", "code"]
+    },
+    {
+      "response_type": "question",
+      "user_input": ["refund", "how", "can", "I", "get"],
+      "bot_response": "We don't offer refunds for free education.",
+      "required_words": ["refund", "i"]
+    },
+    {
+      "response_type": "question",
+      "user_input": ["how", "are", "you"],
+      "bot_response": "I'm great! Thanks for asking.",
+      "required_words": ["how", "are", "you"]
+    },
+    {
+      "response_type": "question",
+      "user_input": ["how", "is", "the", "weather"],
+      "bot_response": "The weather is pleasant",
+      "required_words": ["how", "weather"]
+    },
+    {
+      "response_type": "request",
+      "user_input": ["can", "you", "schedule", "the", "task"],
+      "bot_response": "Sorry, I am not that advance , pls use Google Scheduler",
+      "required_words": ["schedule", "task"]
+    },
+
+    {
+      "response_type": "request",
+      "user_input": [ "open", "the", "browser"],
+      "bot_response": "Use the link - https://www.google.co.in/",
+      "required_words": ["open", "browser"]
+    }
+
+  ]
